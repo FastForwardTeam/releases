@@ -1,0 +1,37 @@
+name: Release
+
+on:
+  workflow_dispatch:
+
+
+jobs:
+  Chromium:
+    runs-on: ubuntu-latest
+    
+    steps:
+      - uses: actions/checkout@v2
+        with:
+          fetch-depth: 0
+      
+      - name: Preparing...
+        run: bash utils/pre.sh
+
+      - name: "Add key"
+        run: echo '${{ secrets.CHROMIUM_KEY }}' >> ./utils/key.pem
+
+      - name: "Build package"
+        run: node utils/chromium.js
+
+      - name: Cleanup
+        run: bash utils/post.sh
+
+      - name: Commit
+        run: |
+            git config --global user.email "41898282+github-actions[bot]@users.noreply.github.com"
+            git config --global user.name "GitHub Actions"
+            git add .
+            git commit --amend -m "Release"
+            git push --force
+
+
+
