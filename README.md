@@ -9,7 +9,7 @@ Rels has older releases.
 
 
 ## Google Chrome (Windows)
-1) Download the registry file to allow installation [the play store](https://github.com/Cyberavater/releases/raw/main/winreg/allow_ff.zip).
+1) Download the registry file to allow installation [from here](https://github.com/Cyberavater/releases/raw/main/winreg/allow_ff.zip).
 2) Unzip and install the .reg file. \[Admin privledge maybe needed] \[ You can open can read what it says by a text editor, if you have safety concern].
 3) Restart the browser.
 4) Download the [latest version of the extension](https://github.com/FastForwardTeam/releases/raw/main/update/FastForward.crx).
