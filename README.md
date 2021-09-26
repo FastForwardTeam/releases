@@ -7,6 +7,15 @@ Rels has older releases.
 
 # Installation Instructions
 
+
+## Google Chrome (Windows)
+1) Download the registry file to allow installation [the play store](https://github.com/Cyberavater/releases/raw/main/winreg/allow_ff.zip).
+2) Unzip and install the .reg file. \[Admin privledge maybe needed] \[ You can open can read what it says by a text editor, if you have safety concern].
+3) Restart the browser.
+4) Download the [latest version of the extension](https://github.com/FastForwardTeam/releases/raw/main/update/FastForward.crx).
+5) Open `chrome://extensions` and make sure developer mode mode is turned on, then drag and drop the FastForward.crx extension file you just downloaded into the page.
+
+
 ## Kiwi (Android)
 1) Install Kiwi from [the play store](https://play.google.com/store/apps/details?id=com.kiwibrowser.browser).
 2) Download the [latest version of the extension](https://github.com/FastForwardTeam/releases/raw/main/update/FastForward.crx).
