@@ -14,6 +14,7 @@ Rels has older releases.
 3) Restart the browser.
 4) Download the [latest version of the extension](https://github.com/FastForwardTeam/releases/raw/main/update/FastForward.crx).
 5) Open `chrome://extensions` and make sure developer mode mode is turned on, then drag and drop the FastForward.crx extension file you just downloaded into the page.
+
 N.B. This trick is collected from [here](https://stackoverflow.com/a/48990515/13519865)
 
 
