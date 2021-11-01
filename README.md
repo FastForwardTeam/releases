@@ -17,6 +17,9 @@ Rels has older releases.
 
 N.B. This trick is collected from [here](https://stackoverflow.com/a/48990515/13519865).
 
+## Google Chrome (Linux)
+2) Download the [latest version of the extension](https://cdn.jsdelivr.net/gh/FastForwardTeam/releases/update/FastForward.crx).
+3) Open `chrome://extensions` and make sure developer mode mode is turned on, then drag and drop the FastForward.crx extension file you just downloaded into the page.
 
 
 ## Kiwi (Android)
@@ -28,7 +31,7 @@ N.B. This trick is collected from [here](https://stackoverflow.com/a/48990515/13
 
 
 
-## Ungoogled Chromium and Google Chrome (Linux)
+## Ungoogled Chromium
 1) Install the chromium-web-store extension by following the instructions on [this page](https://github.com/NeverDecaf/chromium-web-store#installation).
 2) Download the [latest version of the extension](https://cdn.jsdelivr.net/gh/FastForwardTeam/releases/update/FastForward.crx).
 3) Open `chrome://extensions` and make sure developer mode mode is turned on, then drag and drop the FastForward.crx extension file you just downloaded into the page.
