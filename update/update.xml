@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <gupdate xmlns='http://www.google.com/update2/response' protocol='2.0'>
   <app appid='ilcacnomdmddpohoakmgcboiehclpkmj'>
-    <updatecheck codebase='https://cdn.jsdelivr.net/gh/FastForwardTeam/releases@main/update/FastForward.crx' version='0.0.4' prodversionmin='64.0.3242' />
+    <updatecheck codebase='https://cdn.jsdelivr.net/gh/FastForwardTeam/releases@main/update/FastForward.crx' version='0.0.7' prodversionmin='64.0.3242' />
   </app>
 </gupdate>
