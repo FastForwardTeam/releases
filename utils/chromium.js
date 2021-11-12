@@ -14,7 +14,7 @@ const ChromeExtension = require('crx');
 /******************************************************************************/
 
 const crx = new ChromeExtension({
-    codebase: 'https://raw.githubusercontent.com/FastForwardTeam/releases/main/update/FastForward.crx',
+    codebase: 'https://cdn.jsdelivr.net/gh/FastForwardTeam/releases@main/update/FastForward.crx',
     privateKey: fs.readFileSync('./utils/key.pem')
 });
 
@@ -22,7 +22,7 @@ var manifestLoc = './FastForward/build/FastForward.chromium/manifest.json';
 
 let manifestJson = JSON.parse(fs.readFileSync(manifestLoc, 'utf8'));
 
-manifestJson.update_url = 'https://raw.githubusercontent.com/FastForwardTeam/releases/main/update/update.xml'
+manifestJson.update_url = 'https://cdn.jsdelivr.net/gh/FastForwardTeam/releases@main/update/update.xml'
 
 var ver = fs.readFileSync('./utils/ver.txt').toString();
 ver = ver.replace(/\n/g, '');
